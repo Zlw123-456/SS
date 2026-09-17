@@ -1,0 +1,16 @@
+{
+  "sample_rate": 16000,
+  "n_fft": 640,
+  "hop_length": 160,
+  "num_sources": 2,
+  "ba": {
+    "total_bins": 321,
+    "low_bins": 60,
+    "total_bands": 67,
+    "alpha": 2.0
+  },
+  "br": {
+    "feature_dim": 128,
+    "hidden_dim": 64
+  }
+}

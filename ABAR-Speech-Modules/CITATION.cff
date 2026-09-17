@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "Please cite this software when using these standalone modules. Add the manuscript citation once its public metadata is confirmed."
+type: software
+title: "ABAR: Speech Separation Modules"
+version: 0.1.0
+abstract: "Standalone fixed-budget band allocation and input-dependent band recalibration components. No TIGER backbone implementation is included."
+authors:
+  - family-names: Zhang
+    given-names: Longwei
+    affiliation: "Xinjiang University"
+  - family-names: Liang
+    given-names: Yahui
+    affiliation: "Xinjiang University"
+  - family-names: Zhang
+    given-names: Dingbang
+    affiliation: "Xinjiang University"
+  - family-names: Guo
+    given-names: Xiaoyong
+    affiliation: "Xinjiang University"
+  - family-names: Wang
+    given-names: Kai
+    affiliation: "Xinjiang University"
+  - family-names: Huang
+    given-names: Hao
+    affiliation: "Xinjiang University"
+keywords:
+  - speech separation
+  - band allocation
+  - band recalibration

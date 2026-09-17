@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "abar-speech-modules"
+version = "0.1.0"
+description = "Standalone band allocation and recalibration modules for speech separation"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+br = ["torch>=2.1"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["abar_speech*"]
